@@ -128,12 +128,9 @@ def main():
         default=0,
     )
     args = parser.parse_args()
-    Config.excluded_dirs = DEFAULT_EXCLUDED_DIRS
-    if args.no_defaults:
-        Config.excluded_dirs = []
+    Config.excluded_dirs = [] if args.no_defaults else DEFAULT_EXCLUDED_DIRS
     if args.exclude_dir:
-        for exclude in args.exclude_dir:
-            Config.excluded_dirs.append(exclude)
+        Config.excluded_dirs.extend(args.exclude_dir)
     Config.verbosity = args.verbose
     total_files = total_lines = 0
     for target_name in args.target:
