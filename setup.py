@@ -14,6 +14,6 @@ setup(
     author="Markku Leiniö",
     python_requires=">=3.7",
     packages=["lopc"],
-    entry_points={"console_scripts": ["lopc=lopc:main"]},
+    entry_points={"console_scripts": ["lopc=lopc.lopc:main"]},
     license="MIT",
 )
