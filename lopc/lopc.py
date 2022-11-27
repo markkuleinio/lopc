@@ -70,7 +70,7 @@ def recurse_dir(dir: Path) -> Tuple[int, int]:
         else:
             files_list.append(item)
     # First read the files (or "non-directories")
-    for item in files_list:
+    for item in sorted(files_list):
         if item.suffix == ".py":
             total_files += 1
             total_lines += read_file(item)
