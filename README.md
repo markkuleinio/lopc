@@ -28,21 +28,21 @@
 ## Run
 
     (venv) $ lopc /home/markku/devel/lopc
-    /home/markku/devel/lopc Files: 4 Lines: 144
+    /home/markku/devel/lopc Files: 4 Lines: 142
 
     (venv) $ lopc /home/markku/devel/lopc -v
-    File: /home/markku/devel/lopc/setup.py (15 lines)
-    File: /home/markku/devel/lopc/lopc/__main__.py (5 lines)
-    File: /home/markku/devel/lopc/lopc/lopc.py (124 lines)
+    File: /home/markku/devel/lopc/setup.py (16 lines)
     File: /home/markku/devel/lopc/lopc/__init__.py (0 lines)
-    /home/markku/devel/lopc Files: 4 Lines: 144
+    File: /home/markku/devel/lopc/lopc/__main__.py (5 lines)
+    File: /home/markku/devel/lopc/lopc/lopc.py (121 lines)
+    /home/markku/devel/lopc Files: 4 Lines: 142
 
     (venv) $ lopc /home/markku/devel/lopc -vv
     Directory: /home/markku/devel/lopc
-    File: /home/markku/devel/lopc/setup.py (15 lines)
+    File: /home/markku/devel/lopc/setup.py (16 lines)
     Directory: /home/markku/devel/lopc/lopc
-    File: /home/markku/devel/lopc/lopc/__main__.py (5 lines)
-    File: /home/markku/devel/lopc/lopc/lopc.py (124 lines)
     File: /home/markku/devel/lopc/lopc/__init__.py (0 lines)
+    File: /home/markku/devel/lopc/lopc/__main__.py (5 lines)
+    File: /home/markku/devel/lopc/lopc/lopc.py (121 lines)
     Directory: /home/markku/devel/lopc/lopc.egg-info
-    /home/markku/devel/lopc Files: 4 Lines: 144
+    /home/markku/devel/lopc Files: 4 Lines: 142
